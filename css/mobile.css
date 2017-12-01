@@ -1,0 +1,32 @@
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #ffffff;
+        color: #777777;
+        font-family: 'Raleway', sans-serif;
+        line-height: 26px;
+        font-size: 14px;
+    }
+
+    .Text-Logo {
+        width: 80%;
+        padding: 25px;
+    }
+
+    .Side-Bar {
+        background-color: rgb(34, 34, 34);
+        width: 100%;
+        position: relative;
+      
+    }
+
+
+    img {
+        vertical-align: middle;
+    }
+     
+    
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+   
+}

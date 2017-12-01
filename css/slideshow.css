@@ -1,0 +1,181 @@
+.mySlides {display:none}
+
+.Hero1 {
+    background-image: url("../Temp-Images/hero4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: -134px 0;
+    height: 200px;
+}
+.Hero2 {
+    background-image: url("../Temp-Images/hero1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.Hero3 {
+    background-image: url("../Temp-Images/hero3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  top: 22%;
+}
+
+/* Next & previous buttons */
+
+/* On hover, add a black background color with a little bit see-through */
+
+/* Caption text */
+.Slider-H2 {
+  color: #fab502;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 25px;
+  top:30px;
+}
+
+.Slider-H1 {
+    color: #ffffff;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    top:50px;
+    font-weight: 600;
+  }
+
+  .Slider-Line1 {
+    border-color: white;
+    color: white;
+    position: absolute;
+    width: 24%;
+    left: 38%;
+    display: block;
+    border: solid 1px;
+    top: 98px;
+
+  }
+
+
+  .Slider-Line2 {
+    border-color: white;
+    color: white;
+    position: absolute;
+    width: 24%;
+    left: 43%;
+    display: block;
+    border: solid 1.3px;
+    top: 106px;
+
+  }
+
+  .Slider-Services-Btn {
+    padding: 3px;
+    color: #333333;
+    width: 100px;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    top: 123px;
+    left: 25%;
+    background: #fab502;
+  }
+  .Slider-Book-Btn {
+    padding: 3px;
+    color: #333333;
+    width: 100px;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    top: 123px;
+    left: 52%;
+    background: #ffffff;
+  }
+
+  a :hover {
+      transition: all 0.8s ease 0s;
+      text-decoration: none;
+      color:white;
+      background-color: rgba(51, 51, 51, 0.8);
+
+  }
+
+/* The dots/bullets/indicators */
+
+.dot1  {border: solid 1px;top: 50px;}
+.dot2 {border: solid 1px;top: 70px;}
+.dot3 {border: solid 1px;top: 90px;}
+.dot1, .dot2, .dot3 {
+    border-color: white;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50% 50%;
+    right: 13px;
+    display: block;
+    padding: 4px;
+}
+
+.active, .dot:hover {
+  background-color: #fab502;
+}
+
+.Slider-Drop {
+    background-color: #ffffff;
+    position: absolute;
+    left: 46%;
+    top: 182px;
+    z-index: 10;
+    padding: 2px 8px;
+    width: 40px;
+    display: block;
+    height: 40px;
+    cursor: pointer;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.Slider-Drop img {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 21px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
