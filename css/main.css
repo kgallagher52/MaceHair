@@ -3,7 +3,11 @@ body {margin: 0;background-color: #6B717E;}
 
 .Main-Font {font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
 .Secondary-Font {font-family: 'Yesteryear', 'cursive';}
-.Body-Font {font-family: 'Raleway',sans-serif;line-height: 26px;}
+.Body-Font {font-family: 'Raleway',sans-serif;line-height: 26px; text-align:center;}
+
+a {
+    text-decoration: none;
+}
 
 .Main-Wrapper {
     width: 90%;
@@ -15,6 +19,50 @@ li {
     list-style: none;
     display: inline-block;
 }
+
+/* Card css */
+
+.Middle-Padding {
+    padding: 12px;
+}
+
+.Bottom-Padding {
+    padding-bottom: 26px;
+}
+
+.Services-Paragraph {
+    text-align: center;
+}
+
+.Services-Card {
+    background-color:#ffffff;
+    height: auto;
+    padding: 12px;
+
+}
+
+
+#hairCutImg img{
+    border-radius: 50% 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+   
+}
+
+.Service-Titles {
+    color: black;
+    text-align: center;
+   
+}
+
+.Service-Links {
+    color: #fab502;
+    text-align: center;
+    border: 1px #fab502 solid;
+}
+
+/* ____________ */
 
 
 /* -----------------------Grid-----------------------------*/

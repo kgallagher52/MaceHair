@@ -1,6 +1,6 @@
 @media only screen and (max-width: 500px) {
     body {
-        background-color: #ffffff;
+        background-color: #f7f7f7;
         color: #777777;
         font-family: 'Raleway', sans-serif;
         line-height: 26px;
@@ -28,5 +28,9 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 
-   
+   .Service-Titles {
+       color: black;
+       text-align: center;
+   }
 }
+
