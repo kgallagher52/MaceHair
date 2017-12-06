@@ -1,7 +1,12 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 600px) {
+    
+    
     body {
         background-color: #f7f7f7; 
     }
+
+ 
+    
 
     .Text-Logo {
         width: 80%;
@@ -11,10 +16,10 @@
     .Side-Bar {
         background-color: rgb(34, 34, 34);
         width: 100%;
-        position: relative;
+        
       
     }
-
+  
     .Text-Logo {
         width: 222px;
     }

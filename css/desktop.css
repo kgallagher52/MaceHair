@@ -1,3 +1,110 @@
-@media only screen and (max-width: 1290px) {
+@media only screen and (min-width: 1050px) {
 
+    .slideshow-container,.Main-Container, footer {
+        float: right;
+    }
+    span, .Text-Logo {
+        display: none;
+    }
+    .Slider-Drop {
+        left: 56%;
+        top: 97%;
+    }
+    #sideBar {
+        background-color: rgb(34, 34, 34);
+        width: 196px;
+        height: 100vh;
+        padding: 30px 0px;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+    }
+
+    .Main-Wrapper {
+        float: right;
+    }
+
+
+    .Hero1,.Hero2,.Hero3 {
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .Logo {
+        display: block;
+        width: 162px;
+    }
+
+    ul {
+        padding: 0;
+        display: inline-grid;
+        text-decoration: none;
+    }
+    
+    li {
+        margin: 27px 0px;
+    }
+
+    a {
+        color: #777777;
+        font-size: 1.2rem;
+        
+    }
+
+    .Social a :hover {
+        transition: all 0.8s ease 0s;
+        text-decoration: none;
+        color:white;
+        background-color: #fab501;
+  
+    }
+
+    a :hover {
+        transition: all 0.8s ease 0s;
+        color: #fab501;
+        cursor: pointer;
+  
+    }
+    .Social-Logo {
+        display: inline-block;
+        width: 45px;
+        border-radius: 50% 50%;
+    }
+
+    img.Social-Logo{
+        margin: 3px;
+    }
+
+    .Main-Titles img{
+        width: 50%;
+        margin-left: 28%;
+    }
+
+    .Middle-Padding {
+        display: none;
+    }
+
+    .Services-Card {
+        margin-left: 8%;
+        padding: 12px;
+        margin-bottom: 40px;
+    }
+
+    .Services-Paragraph {
+        padding: 0 5%;
+    }
+
+    #hairCutImg img  {
+        margin-left: 18%;
+    }
+
+    .instagram-media {
+        float: right;
+    }
+    .Top-Padding {
+        display: block;
+        padding: 12px;
+    }
+    
 }

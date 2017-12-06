@@ -1,4 +1,6 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 500px ) {
+  
+    
     body {
         background-color: #f7f7f7;
         color: #777777;
@@ -12,12 +14,17 @@
         padding: 25px;
     }
 
+    .Services-Images {
+        margin-left: 22%;
+    }
+
     .Side-Bar {
         background-color: rgb(34, 34, 34);
         width: 100%;
         position: relative;
       
     }
+
 
 
     img {

@@ -1,5 +1,5 @@
 *, *:before, *:after {box-sizing: border-box;}
-body {margin: 0;background-color: #6B717E;}
+body {margin: 0;background-color: #f7f7f7;}
 
 .Main-Font {font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
 .Secondary-Font {font-family: 'Yesteryear', 'cursive';}
@@ -7,6 +7,52 @@ body {margin: 0;background-color: #6B717E;}
 
 a {
     text-decoration: none;
+}
+
+span {
+    color: #777777;
+    float: right;
+    padding-top: 11px;
+    padding-right: 15px;
+}
+
+.Logo {
+    display: none;
+}
+.Social-Logo {
+    display: none;
+}
+
+ul {
+    display: none;
+}
+
+.Text-Logo {
+    width: 80%;
+    padding: 25px;
+}
+
+.Side-Bar {
+    background-color: rgb(34, 34, 34);
+
+  
+}
+
+img {
+    vertical-align: middle;
+}
+ 
+
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+
+.Service-Titles {
+   color: black;
+   text-align: center;
+}
+
+.Services-Images {
+    margin-left: 22%;
 }
 
 .Main-Wrapper {
@@ -41,11 +87,6 @@ li {
 
 }
 
-.Services-Images {
-    margin-left: 22%;
-
-}
-
 #hairCutImg img{
     border-radius: 50% 50%;
     height: 150px;
@@ -66,6 +107,10 @@ li {
     border: 1px #fab502 solid;
 }
 
+.Top-Padding {
+    display: none;
+}
+#sb_instagram img { opacity: 1 !important; }
 /* ____________ */
 
 

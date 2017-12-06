@@ -23,7 +23,6 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
   margin-bottom: 50px;
@@ -40,74 +39,78 @@
 /* Caption text */
 .Slider-H2 {
   color: #fab502;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+  position: relative;
   text-align: center;
   line-height: 35px;
   font-size: 25px;
-  top:30px;
+  top: 14%;
+  left: 2%;
 }
 
+
 .Slider-H1 {
-    color: #ffffff;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-    line-height: 50px;
-    font-size: 25px;
-    top:50px;
-    font-weight: 600;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  top: 12%;
+  font-weight: 600;
+  left: 2%;
   }
 
   .Slider-Line1 {
     border-color: white;
     color: white;
-    position: absolute;
-    width: 24%;
-    left: 38%;
-    display: block;
+    position: relative;
+    width: 58%;
+    left: 20%;
     border: solid 1px;
-    top: 98px;
-
-  }
-
+    top: 12%;
+}
 
   .Slider-Line2 {
     border-color: white;
     color: white;
-    position: absolute;
-    width: 24%;
-    left: 43%;
-    display: block;
+    position: relative;
+    width: 59%;
+    left: 25%;
     border: solid 1.3px;
-    top: 106px;
-
+    top: 14%;
   }
 
+  .Heros {
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    top: 17%;
+    display: flex;
+}
+.Heros a{
+  margin: 13px;
+}
+
+.Btns {
+  display: flex;
+  top: 16%;
+}
+
   .Slider-Services-Btn {
-    padding: 3px;
+    padding: 8px;
     color: #333333;
     width: 100px;
-    position: absolute;
     text-align: center;
     font-size: 12px;
-    top: 123px;
-    left: 25%;
     background: #fab502;
   }
   .Slider-Book-Btn {
-    padding: 3px;
+    padding: 8px;
     color: #333333;
     width: 100px;
-    position: absolute;
     text-align: center;
     font-size: 12px;
-    top: 123px;
-    left: 52%;
     background: #ffffff;
   }
 
@@ -139,7 +142,7 @@
 }
 
 .Slider-Drop {
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     position: absolute;
     left: 46%;
     top: 182px;
