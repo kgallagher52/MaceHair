@@ -1,0 +1,58 @@
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: #f7f7f7; 
+    }
+
+    .Text-Logo {
+        width: 80%;
+        padding: 25px;
+    }
+
+    .Side-Bar {
+        background-color: rgb(34, 34, 34);
+        width: 100%;
+        position: relative;
+      
+    }
+
+    .Text-Logo {
+        width: 222px;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    span  {
+        float: right;
+    }
+
+    .Slider-Services-Btn {
+        left: 38%;
+    }
+
+    .Slider-Book-Btn {
+        left: 53%;
+    }
+
+    .Hero1{
+        background-size: contain;
+        background-position: -6px 0;
+    }
+
+
+
+    .Services-Images {
+        margin-left: 38%;
+    }
+     
+    
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+   .Service-Titles {
+       color: black;
+       text-align: center;
+   }
+}
+

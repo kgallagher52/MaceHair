@@ -41,12 +41,16 @@ li {
 
 }
 
+.Services-Images {
+    margin-left: 22%;
+
+}
 
 #hairCutImg img{
     border-radius: 50% 50%;
     height: 150px;
     width: 150px;
-    margin-left: 50px;
+    
    
 }
 

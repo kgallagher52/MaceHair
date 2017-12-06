@@ -1,0 +1,21 @@
+.labels label{
+    float: left;
+
+}
+
+.submit {
+    color: #fab502;
+    background-color: #777777;
+    padding: 12px;
+    border: black 1px solid;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+

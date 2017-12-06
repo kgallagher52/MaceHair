@@ -1,0 +1,26 @@
+footer {
+    background-color: rgb(34,34,34);
+    height: 45px;
+    z-index: 20;
+   
+}
+
+.Slider-Up {
+    background-color: rgb(34,34,34);
+    position: absolute;
+    left: 46%;
+    z-index: 10;
+    padding: 0px 5px;
+    width: 40px;
+    display: block;
+    height: auto;
+    cursor: pointer;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.Slider-Up img {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 21px;
+
+}

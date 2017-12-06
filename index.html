@@ -8,6 +8,10 @@
         <link rel="stylesheet" href="css/mobile.css" media="screen"/>
         <link rel="stylesheet" href="css/hamburger.css" media="screen"/>
         <link rel="stylesheet" href="css/slideshow.css" media="screen"/>
+        <link rel="stylesheet" href="css/desktop.css" media="screen"/>
+        <link rel="stylesheet" href="css/small.css" media="screen"/>
+        <link rel="stylesheet" href="css/form.css" media="screen"/>
+        <link rel="stylesheet" href="css/footer.css" media="screen"/>
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -24,10 +28,10 @@
                     </a>
                     <div id="mySidenav" class="sidenav">
                           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                          <a href="#">Book</a>
-                          <a href="#">Gallery</a>
-                          <a href="#">Contact</a>
-                          <a href="#">About</a>
+                          <a class="Side-Nav-a" href="#">Book</a>
+                          <a class="Side-Nav-a" href="#">Gallery</a>
+                          <a class="Side-Nav-a" href="#">Contact</a>
+                          <a class="Side-Nav-a" href="#">About</a>
                     </div>
                     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
                 </div>
@@ -82,7 +86,7 @@
                     </div>
                     <div class="col-12-l col-12-m col-12-s col-12-x Services-Card">
                         <div class="col-12-l col-12-m col-12-s col-12-x Main-Card-Img" id="hairCutImg">
-                            <img src="./Temp-images/haircuts.jpeg" alt="Services-Images" class="responsive">
+                            <img src="./Temp-images/haircuts.jpeg" alt="Services-Images" class="responsive Services-Images">
                         </div>
                         <div class="col-12-l col-12-m col-12-s col-12-x">
                             <h1 class="Main-Font Service-Titles">Haircuts</h1>
@@ -99,7 +103,7 @@
                     
                     <div class="col-12-l col-12-m col-12-s col-12-x Services-Card">
                         <div class="col-12-l col-12-m col-12-s col-12-x Main-Card-Img" id="hairCutImg">
-                            <img src="./images/IMG_6542.JPG" alt="Services-Images" class="responsive">
+                            <img src="./images/IMG_6542.JPG" alt="Services-Images" class="responsive Services-Images">
                         </div>
                         <div class="col-12-l col-12-m col-12-s col-12-x">
                             <h1 class="Main-Font Service-Titles">Color</h1>
@@ -116,7 +120,7 @@
                     
                     <div class="col-12-l col-12-m col-12-s col-12-x Services-Card">
                         <div class="col-12-l col-12-m col-12-s col-12-x Main-Card-Img" id="hairCutImg">
-                            <img src="./images/IMG_6521.JPG" alt="Services-Images" class="responsive">
+                            <img src="./images/IMG_6521.JPG" alt="Services-Images" class="responsive Services-Images">
                         </div>
                         <div class="col-12-l col-12-m col-12-s col-12-x">
                             <h1 class="Main-Font Service-Titles">Styling</h1>
@@ -145,10 +149,45 @@
                     <div class="col-12-l col-12-m col-12-s col-12-x Middle-Padding"></div>
                     <div class="col-12-l col-12-m col-12-s col-12-x">
                         <img src="./images/Asset7.png" alt="GalleryIMG" class="responsive Bottom-Padding">
-                    </div>
+                        <form action="mail.php" method="post" name="form">
+                            <div class="labels Main-Font">
+                                <label>FULL NAME</label>
+                                <input class="inputs" type="text" name="fullname" id="fullName">
+                                <div id="Err"></div>
+                            </div>
+                            
+
+                            <div class="labels Main-Font">
+                                <label>EMAIL</label>
+                                <input class="inputs" type="email" name="email" id="email">
+                                <div id="emailErr"></div>
+                            </div>
+
+                            <div class="labels Main-Font">
+                                <label>Phone</label>
+                                <input class="inputs" type="phone" name="phone" id="phone">
+                            </div>
+             
+                      
+                            <div class="labels Main-Font">
+                                <label>MESSAGE</label>
+                                <textarea class="message" name="Message" id="message"></textarea>
+                                <div id="counter"></div>
+                            </div>
+                     
+                            <div  class="labels Main-Font">
+                                <input class="submit" id="submit" type="submit" name="submit" value="submit">
+                            </div>
+                   
+                        </form>
                 </div>
             </div>
         </div>
+    </div>
+    <footer>
+        <div class="Slider-Up" onClick="window.scroll(0, 0); console.log('working')" id='scroll'><img src="icons/arrow-up-white.png" alt="Arrow"></div>
+    </footer>
+    <script type="text/javascript" src="./javascript/form.js"></script>
     <script type="text/javascript" src="./javascript/javascript.js"></script>
     </body>
 </html>
